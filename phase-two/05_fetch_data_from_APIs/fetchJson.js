@@ -10,4 +10,6 @@ const fetchJson = (url, callbackFunction) => {
   .then(callbackFunction);
 }
 
-fetchJson('https://jsonplaceholder.typicode.com/todos', handleReceivedResponse);
+// fetchJson('https://jsonplaceholder.typicode.com/todos', handleReceivedResponse);
+
+module.exports = fetchJson;
