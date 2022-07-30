@@ -18,7 +18,11 @@ class WeatherApi {
 
 module.exports = WeatherApi;
 
-// api = new WeatherApi;
-// api.fetchWeatherData('London', (weatherData) => {
-//   console.log(weatherData);
-// });
+/*
+to test in Node:
+const WeatherApi = require('./index');
+api = new WeatherApi;
+api.fetchWeatherData('Bristol', (weatherData) => {
+  console.log(weatherData);
+});
+*/
