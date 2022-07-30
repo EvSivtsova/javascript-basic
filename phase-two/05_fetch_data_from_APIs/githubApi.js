@@ -1,6 +1,6 @@
 const got = require('got');
 
-class GithubAPI {
+class GithubApi{
   constructor() {
     this.endpoints = 'https://api.github.com/repos/';
   }
@@ -14,4 +14,4 @@ class GithubAPI {
   }
 }
 
-module.exports = githubAPI;
+module.exports = GithubApi;
